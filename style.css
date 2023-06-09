@@ -1,0 +1,237 @@
+body{
+    font-family: 'Nunito',sans-serif;
+    box-sizing: border-box;
+    
+.header nav 
+{
+   display:inline-block;
+   background-image: linear-gradient(red, skyblue,yellow);
+   padding: 10px 10px;
+   position: sticky;
+}
+.header{
+   background-image: url("images/shutterstock_2773329831.webp");
+   background-size:cover;
+   background-position:center;
+   position: sticky;
+}
+}
+.nav-links{
+    display:inline-block;
+    margin-left:900px;
+    position: sticky;
+}
+.register-btn{
+    margin-left:1200px;
+    padding: 10px 10px;
+    background: #fff;
+    color:#000;
+    border-radius:20px;
+    font-size:14px;
+    position: sticky;
+}
+.register-btn:hover{
+ background-color: #ff5361;
+ color: #fff;
+ transition: 0.5s;
+}
+.container 
+{
+    padding: auto;
+}
+.header h1
+{
+    font-size:4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align:center;
+    padding-top: 20%;
+}
+.search-bar{
+    background-color: #fff;
+    width:70%;
+    margin: 30px auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+.search-bar form button
+{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.location-input{ 
+    flex: 1;
+}
+.search-bar form label{
+    font-weight:800;
+}
+
+/* -------exculsive-------------*/
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 300px;
+    color:black;
+}
+.exculsives {
+    display:flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px 1fr));
+    grid-gap: 30px;
+}
+.exculsives div img{
+    width: 100%;
+    border-radius: 10px ;
+}
+.exculsives div{
+    position: relative;
+}
+.exculsives div span{
+    position: absolute;
+    top: 30%;
+    left:60%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    color: #000;
+}
+/*----------- trending places-------------*/
+.trending{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 30px;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px ;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* -------- call to action---------*/
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient( yellow , green);
+}
+.cta h3{
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 500;
+}
+.cta p{
+font-size: 18px;
+margin: 10px 0;
+}
+.cta-btn{
+    background-color: maroon;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+/* ------Travellers Stories-----*/
+.stories{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 30px;
+}
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.stories div{
+    position: relative;
+    text-align: center;
+}
+.stories p{
+    width: 80%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+    font-size: 26px;
+
+}
+.Start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+/*-----about-msg-------*/
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color:#333;
+    font-size: 17px;
+}
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.footer{
+    margin: 80px 0;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color:#990;
+    font-size: 22px;
+    margin: 0;
+}
+.footer hr{
+    background: #141111;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
+/*------listing page-----*/
+.navbar-white{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    display:inline-block ;
+    height: 70%;
+    width: 100%;
+}
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left-col{
+    flex-basis: 70%;
+}
+.right-col{
+    flex-basis: 25%%;
+}
